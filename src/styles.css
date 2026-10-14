@@ -548,6 +548,26 @@ h1, h2, h3 { font-family: Manrope, 'DM Sans', sans-serif; }
   .toast { right: 12px; bottom: 78px; left: 12px; max-width: none; font-size: 10px; }
 }
 
+
+.sidebar-credit-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: inherit;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.sidebar-credit-link:hover {
+  opacity: 0.75;
+}
+
+.sidebar-credit-link:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
 @media (max-width: 370px) {
   .page-content { padding-inline: 12px; }
   .heading-action .button { gap: 5px; padding-inline: 8px; }
